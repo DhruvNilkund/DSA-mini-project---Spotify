@@ -1,0 +1,48 @@
+47
+create_playlist
+create_music_queue
+add_song 1 -1
+add_song 2 -1
+add_song 3 -1
+add_song 4 -1
+display_playlist
+add_song 5 4
+add_song 7 5
+display_playlist
+add_song 8 -1
+add_song 9 -2
+add_song 6 -2
+add_song 10 -3
+add_song 11 -2
+display_playlist
+play_next
+play_next
+play_next
+play_next
+delete_song 3
+display_playlist
+insert_to_queue 1
+insert_to_queue 3
+play_next
+play_next
+play_next
+play_next
+play_previous
+display_playlist
+delete_song 2
+display_playlist
+insert_to_queue 4
+insert_to_queue 5
+play_next
+play_next
+play_next
+play_previous
+play_next
+play_next
+play_next
+play_previous
+display_playlist
+insert_to_queue 8
+display_playlist
+delete_playlist
+clear_music_queue
